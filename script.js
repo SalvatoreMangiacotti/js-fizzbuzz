@@ -28,7 +28,7 @@
 
 for (let i = 1; i <= 100; i++) {
 
-    let messaggio;
+    let messaggio = i;
 
     // condizione 1: il numero è sia multiplo di 3 che di 5
     if ((i % 3 === 0) && (i % 5 === 0)) {
@@ -48,13 +48,6 @@ for (let i = 1; i <= 100; i++) {
     else if (i % 5 === 0) {
 
         messaggio = "Buzz";
-
-    }
-
-    // il numero non rientra nelle condizioni precedenti
-    else {
-
-        messaggio = i;
 
     }
 
